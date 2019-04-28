@@ -25,6 +25,7 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+			dkfjlsgjfkldgjkldfjgkldfjgdfkljgfdkljgkldjgklfjdfgljdfgkl
                    DESC
 
   spec.homepage     = "https://github.com/www19949212008/TDShopSDK"
@@ -118,7 +119,7 @@ Pod::Spec.new do |spec|
   spec.vendored_frameworks = 'TDShopSDK.framework'
   # spec.framework  = "SomeFramework"
   # spec.frameworks = "SomeFramework", "AnotherFramework"
-
+  
   # spec.library   = "iconv"
   # spec.libraries = "iconv", "xml2"
 
@@ -130,7 +131,7 @@ Pod::Spec.new do |spec|
   #  you can include multiple dependencies to ensure it works.
 
   # spec.requires_arc = true
-
+  spec.swift_version = '4.0'
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
   spec.dependency 'SDWebImage', '~> 5.0'
